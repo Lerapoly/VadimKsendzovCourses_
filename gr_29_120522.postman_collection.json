@@ -1,0 +1,139 @@
+{
+	"info": {
+		"_postman_id": "34f6db78-40df-429d-ae8c-a160b02d690a",
+		"name": "gr_29_120522",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "5007_1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://162.55.220.72:5007/\n",
+					"protocol": "http",
+					"host": [
+						"162",
+						"55",
+						"220",
+						"72"
+					],
+					"port": "5007",
+					"path": [
+						"\n"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "first",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://162.55.220.72:5005/get_method\n",
+					"protocol": "http",
+					"host": [
+						"162",
+						"55",
+						"220",
+						"72"
+					],
+					"port": "5005",
+					"path": [
+						"get_method\n"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "first Copy",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://162.55.220.72:5005/first\n",
+					"protocol": "http",
+					"host": [
+						"162",
+						"55",
+						"220",
+						"72"
+					],
+					"port": "5005",
+					"path": [
+						"first\n"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "post_1",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "age",
+							"value": "32",
+							"type": "default"
+						},
+						{
+							"key": "salary",
+							"value": "2000",
+							"type": "default"
+						},
+						{
+							"key": "name",
+							"value": "Alex",
+							"type": "default"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://162.55.220.72:5005/user_info_2\n",
+					"protocol": "http",
+					"host": [
+						"162",
+						"55",
+						"220",
+						"72"
+					],
+					"port": "5005",
+					"path": [
+						"user_info_2\n"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://162.55.220.72:5005/\n",
+					"protocol": "http",
+					"host": [
+						"162",
+						"55",
+						"220",
+						"72"
+					],
+					"port": "5005",
+					"path": [
+						"\n"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
